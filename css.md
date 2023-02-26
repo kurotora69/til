@@ -78,6 +78,18 @@ border-redius - 要素の四隅に対して角丸を適用するプロパティ
 https://jajaaan.co.jp/web-production/frontend/border-radius/
 
 
+### 親要素から子要素がはみ出さないようにする方法
+
+height: auto;　または　width: auto;を使用する
+
+上記を子要素に指定することによって、親要素の幅にピッタリ合わせることができ、親要素からはみ出なくなる。
+
+(補足：cssで高さを指定していないとき、初期値はautoになる)
+
+参考資料
+https://magazine.techacademy.jp/magazine/26588
+
+
 ### Webフォント(無料)
 
 
