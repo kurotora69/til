@@ -86,6 +86,10 @@ height: auto;　または　width: auto;を使用する
 
 (補足：cssで高さを指定していないとき、初期値はautoになる)
 
+※注意点　　
+
+heightを設定することができるのは、「ブロックレベル要素」「inline-block要素」「table要素」のみ。
+
 参考資料
 https://magazine.techacademy.jp/magazine/26588
 
